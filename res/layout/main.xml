@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <com.coogeetech.morningstar.MyKeyboardView
+        android:id="@+id/keyboardView"
+        android:layout_alignParentBottom="true"
+		android:layout_centerHorizontal="true"
+	    android:layout_width="match_parent"
+        android:layout_height="fill_parent" 
+        android:keyTextSize="25dp"
+        android:labelTextSize="25dp"
+        
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:visibility="gone"
+       	android:layout_gravity="bottom"
+        android:paddingBottom="0dip" 
+       	android:paddingLeft="000dip" 
+       	android:paddingRight="000dip" 
+       	android:paddingTop="105dip" />
+    
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:focusable="false"/>
+  
+<!-- <Button 
+        android:id="@+id/clearButton"
+        android:text="Clear Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight = "true"/>
+ -->     
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="use method updateMessage(String):" 
+        android:focusable="true"
+        android:singleLine="false"
+        android:layout_below="@id/editText"/>
+       
+	
+
+	
+	
+	 <TextView
+        android:id="@+id/swipe1Text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statusText"
+        android:text="Touchpoint Status #1"
+        android:textSize="14sp" 
+        android:textColor="@color/debug_text" />
+
+    <TextView
+        android:id="@+id/swipe2Text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/swipe1Text"
+        android:text="Touchpoint Status #2"
+        android:textSize="14sp" 
+        android:textColor="@color/debug_text" />
+
+    <TextView
+        android:id="@+id/swipe3Text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		android:layout_below="@id/swipe2Text"
+        android:text="Touchpoint Status #3"
+        android:textSize="14sp" 
+        android:textColor="@color/debug_text" />
+
+    <TextView
+        android:id="@+id/swipe4Text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/swipe3Text"
+        android:text="Touchpoint Status #4"
+        android:textSize="14sp" 
+        android:textColor="@color/debug_text" />
+    
+	<TextView
+        android:id="@+id/swipe5Text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/swipe4Text"
+        android:text="Touchpoint Status #5"
+        android:textSize="14sp" 
+        android:textColor="@color/debug_text"/>
+	
+	 <TextView
+        android:id="@+id/swipe6Text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/swipe5Text"
+        android:text="Touchpoint Status #6"
+        android:textSize="14sp" 
+        android:textColor="@color/debug_text" />
+
+    <TextView
+        android:id="@+id/swipe7Text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/swipe6Text"
+        android:text="Touchpoint Status #7"
+        android:textSize="14sp" 
+        android:textColor="@color/debug_text" />
+
+    <TextView
+        android:id="@+id/swipe8Text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		android:layout_below="@id/swipe7Text"
+        android:text="Touchpoint Status #8"
+        android:textSize="14sp" 
+        android:textColor="@color/debug_text" />
+
+    <TextView
+        android:id="@+id/swipe9Text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/swipe8Text"
+        android:text="Touchpoint Status #9"
+        android:textSize="14sp" 
+        android:textColor="@color/debug_text" />
+    
+	<TextView
+        android:id="@+id/swipe10Text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/swipe9Text"
+        android:text="Touchpoint Status #10"
+        android:textSize="14sp" 
+        android:textColor="@color/debug_text"/>
+
+     <ImageView        
+        android:id="@+id/feedbackImageView"
+        android:src="@drawable/key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:paddingBottom="5dip" 
+       	android:paddingLeft="5dip" 
+       	android:paddingRight="5dip" 
+       	android:paddingTop="5dip"
+       	android:background="@color/grey"
+        />
+
+
+<!--    android:keyBackground="@drawable/key3"
+        android:background="@color/grey"
+        android:keyTextColor="@color/black" 
+        android1:paddingBottom="20dip" 
+        android1:paddingLeft="10dip" 
+        android1:paddingRight="20dip" 
+        android1:paddingTop="20dip" 
+        android1:soundEffectsEnabled="true" 
+        android1:hapticFeedbackEnabled="true" 
+        android1:layout_gravity="right"  />  -->
+        
+
+            
+        
+ <!--      <View 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background=/> -->  
+
+
+</RelativeLayout>

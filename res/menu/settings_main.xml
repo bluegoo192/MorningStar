@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/audio_settings"
+        android:title="Sound"
+        android:alphabeticShortcut="m"/>
+    <item android:id="@+id/layout_settings"
+        android:title="Keyboard Layout"
+        android:alphabeticShortcut="s"/>
+    <item android:id="@+id/touch_settings"
+        android:title="Touch Tolerance"
+        android:alphabeticShortcut="t"/>
+
+</menu>

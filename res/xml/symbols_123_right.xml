@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyHeight="@dimen/key_height_half"
+    android:keyWidth="@dimen/key_width_half"
+    android:verticalGap="@dimen/key_gap_half"
+    android:horizontalGap="@dimen/key_gap_half" >
+
+    <Row>
+        <Key android:codes="260"            android:keyEdgeFlags="left"/>
+        <Key android:codes="261" />
+        <Key android:codes="262"  />
+        <Key android:codes="263" />
+        <Key android:codes="264"  
+             android:keyEdgeFlags="right"/>
+    </Row>
+       
+    <Row>
+        <Key android:codes="265" 
+             android:keyEdgeFlags="left"/>
+        <Key android:codes="266"  />
+        <Key android:codes="267"  />
+        <Key android:codes="268"  />
+        <Key android:codes="269"   
+             android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="270" 
+             android:keyEdgeFlags="left"/>
+        <Key android:codes="271"  />
+        
+        <Key android:codes="272"  />
+        
+        <Key android:codes="273" />
+                  
+        <Key android:codes="274"  
+             android:keyEdgeFlags="right"/>
+    </Row>
+
+    
+</Keyboard>

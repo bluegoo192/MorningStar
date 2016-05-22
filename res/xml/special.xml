@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyHeight="@dimen/key_height_full"
+    android:keyWidth="@dimen/key_width_full"
+    android:verticalGap="@dimen/key_gap_full"
+    android:horizontalGap="@dimen/key_gap_full"
+    >
+
+    <Row>
+        <Key android:codes="500"   android:keyEdgeFlags="left"/>
+        <Key android:codes="501"  />
+        <Key android:codes="502"  />
+        <Key android:codes="503"  />
+        <Key android:codes="504"  />
+        <Key android:codes="505"  />
+        <Key android:codes="506"  />
+        <Key android:codes="507"  />
+        <Key android:codes="508"  />
+        <Key android:codes="509" 
+            android:keyEdgeFlags="right" />
+
+    </Row>
+
+    <Row>
+
+		<Key android:codes="520"   android:keyEdgeFlags="left"/>
+        <Key android:codes="521"  />
+        <Key android:codes="522"  />
+        <Key android:codes="523"  />
+        <Key android:codes="524"  />
+        <Key android:codes="525"  />
+        <Key android:codes="526"  />
+        <Key android:codes="527"  />
+        <Key android:codes="528"  />
+        <Key android:codes="529" 
+            android:keyEdgeFlags="right" />
+            
+    </Row>
+
+    <Row>
+                
+        <Key android:codes="540"   android:keyEdgeFlags="left"/>
+        <Key android:codes="541"  />
+        <Key android:codes="542"  />
+        <Key android:codes="543"  />
+        <Key android:codes="544"  />
+        <Key android:codes="545"  />
+        <Key android:codes="546"  />
+        <Key android:codes="547"  />
+        <Key android:codes="548"  />
+        <Key android:codes="549" 
+            android:keyEdgeFlags="right" />
+        
+    </Row>
+
+</Keyboard>
